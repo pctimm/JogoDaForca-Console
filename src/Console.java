@@ -39,9 +39,9 @@ public class Console extends Programa {
     }
 
     private static void criarLista() {
-        listaDeProgramas.put(ProgramasEnum.console, new Console());
-        listaDeProgramas.put(ProgramasEnum.forca, new Forca());
-        listaDeProgramas.put(ProgramasEnum.batata, new Batata());
-        listaDeProgramas.put(ProgramasEnum.jogodavelha, new JogoDaVelha());
+        ProgramasEnum[] stream = ProgramasEnum.values();
+        for (ProgramasEnum aux : stream) {
+            listaDeProgramas.put(aux, aux.getInstancia());
+        }
     }
 }

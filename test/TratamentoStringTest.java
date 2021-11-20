@@ -1,6 +1,8 @@
 import org.junit.Assert;
 import org.junit.Test;
 import Utilitarios.TratamentoString;
+import java.util.Random;
+
 public class TratamentoStringTest {
     @Test
     public void retornarRepetidas() {
@@ -9,6 +11,4 @@ public class TratamentoStringTest {
         int resultado = TratamentoString.contarLetrasDiferentesQueCaractere(lista, '*');
         Assert.assertEquals(espero, resultado);
     }
-
-
 }
