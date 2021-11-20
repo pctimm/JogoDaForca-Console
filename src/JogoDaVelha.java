@@ -6,7 +6,7 @@ import java.util.Random;
 public class JogoDaVelha extends Programa {
     Scanner teclado = new Scanner(System.in);
     public static final char X = 'X';
-    public static final char O = '◯';
+    public static final char O = 'O';
 
     public JogoDaVelha() {
         super("jogodavelha", "Jogo da Velha entre dois jogadores - TIC-TAC-TOE");

@@ -2,8 +2,6 @@ import java.util.HashMap;
 import java.util.Scanner;
 import Utilitarios.TratamentoString;
 
-
-
 public class Console extends Programa {
     private static HashMap<ProgramasEnum, Programa> listaDeProgramas = new HashMap<>();
 
