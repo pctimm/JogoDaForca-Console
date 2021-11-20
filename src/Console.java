@@ -42,5 +42,6 @@ public class Console extends Programa {
         listaDeProgramas.put(ProgramasEnum.console, new Console());
         listaDeProgramas.put(ProgramasEnum.forca, new Forca());
         listaDeProgramas.put(ProgramasEnum.batata, new Batata());
+        listaDeProgramas.put(ProgramasEnum.jogodavelha, new JogoDaVelha());
     }
 }

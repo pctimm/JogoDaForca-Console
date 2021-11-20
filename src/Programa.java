@@ -1,14 +1,10 @@
-public abstract class Programa {
+public abstract class Programa implements Executavel {
     protected String prefixo;
     protected String descricao;
 
     protected Programa(String prefixo, String descricao) {
         this.prefixo = prefixo;
         this.descricao = descricao;
-    }
-
-    public void executar() {
-
     }
 
     public String getPrefixo() {

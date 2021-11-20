@@ -9,4 +9,6 @@ public class TratamentoStringTest {
         int resultado = TratamentoString.contarLetrasDiferentesQueCaractere(lista, '*');
         Assert.assertEquals(espero, resultado);
     }
+
+
 }
