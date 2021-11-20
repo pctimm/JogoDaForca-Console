@@ -36,12 +36,11 @@ public class Console extends Programa {
     public void executar() {
         System.out.println("Executando: Console para execução de Programas - " +
                 "PSoft Computing Services ©1984");
-
-
     }
 
     private static void criarLista() {
         listaDeProgramas.put(ProgramasEnum.console, new Console());
         listaDeProgramas.put(ProgramasEnum.forca, new Forca());
+        listaDeProgramas.put(ProgramasEnum.batata, new Batata());
     }
 }

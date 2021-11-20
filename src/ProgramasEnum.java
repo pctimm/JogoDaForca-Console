@@ -1,3 +1,3 @@
 public enum ProgramasEnum {
-    forca, console;
+    forca, console, batata;
 }
