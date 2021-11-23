@@ -1,7 +1,7 @@
 # JogoDaForca-Console
 O repositório guarda uma espécie de **simulador de Console**, que também pode ser conhecido como
 cmd, Shell, prompt de comando, enfim, essa é a ideia.
-Ao console, podem ser executados diversos programas, em separadas classes, facilitando a
+No console, podem ser executados diversos programas, em separadas classes, facilitando a
 criação e a integração de novos programas. É um projetinho de estudo, e com certeza me
 diverti bastante fazendo ele.
 
@@ -10,7 +10,7 @@ Foram utilizadas listas; enumeradores (enum); programação orientada a objetos;
 organização por *packages*; alguma recursão; leitura de entrada com a classe Java.util.Scanner.
 
 ## Principais classes
-* **Console.java**: é a classe que é executada primeimeiramente, uma classe *main*. Pode ser instanciada por um comando nela mesma,
+* **Console.java**: é a classe que é executada primeiramente, uma classe *main*. Pode ser instanciada por um comando nela mesma,
 por mais que isso não tenha grande utilidade, mas imita o comando `cmd` do próprio console do Windows, que só mostra uma mensagem de copyright;
 * **ProgramasEnum.java**: enum que registra todos os programas existentes a serem integrados *(automaticamente!)* ao Console;
 * **Forca.java**: um Jogo da Forca simples em TUI, que inclusive dá o nome ao repositório;
