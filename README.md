@@ -5,7 +5,7 @@ Ao console, podem ser executados diversos programas, em separadas classes, facil
 criação e a integração de novos programas. É um projetinho de estudo, e com certeza me
 diverti bastante fazendo ele.
 
-###Recursos utilizados
+### Recursos utilizados
 Foram utilizadas listas; enumeradores (enum); programação orientada a objetos; tratamento de String;
 organização por *packages*; alguma recursão; leitura de entrada com a classe Java.util.Scanner.
 
